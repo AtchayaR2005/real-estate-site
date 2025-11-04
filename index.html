@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DreamHomes - Real Estate</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(to right, #4facfe, #00f2fe); font-family: 'Poppins', sans-serif; }
+    .property-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .property-card:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <nav class="bg-white shadow-lg p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">DreamHomes</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#" class="hover:text-blue-500">Home</a></li>
+      <li><a href="#" class="hover:text-blue-500">Buy</a></li>
+      <li><a href="#" class="hover:text-blue-500">Rent</a></li>
+      <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="text-center my-10">
+    <h2 class="text-4xl font-bold mb-4 text-white">Find Your Dream Home</h2>
+    <p class="text-white text-lg">Explore the best properties with modern designs and perfect locations.</p>
+  </header>
+
+  <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-10 mb-10">
+    <div class="property-card bg-white rounded-2xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4" class="w-full h-56 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">Luxury Villa</h3>
+        <p class="text-gray-600 mb-2">Chennai, India</p>
+        <p class="text-blue-600 font-bold">₹1.2 Cr</p>
+      </div>
+    </div>
+
+    <div class="property-card bg-white rounded-2xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" class="w-full h-56 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">Modern Apartment</h3>
+        <p class="text-gray-600 mb-2">Bangalore, India</p>
+        <p class="text-blue-600 font-bold">₹85 Lakh</p>
+      </div>
+    </div>
+
+    <div class="property-card bg-white rounded-2xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="w-full h-56 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">Beach House</h3>
+        <p class="text-gray-600 mb-2">Goa, India</p>
+        <p class="text-blue-600 font-bold">₹2.3 Cr</p>
+      </div>
+    </div>
+
+    <div class="property-card bg-white rounded-2xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1599423300746-b62533397364" class="w-full h-56 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">City Apartment</h3>
+        <p class="text-gray-600 mb-2">Hyderabad, India</p>
+        <p class="text-blue-600 font-bold">₹95 Lakh</p>
+      </div>
+    </div>
+
+    <div class="property-card bg-white rounded-2xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353" class="w-full h-56 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">Family Home</h3>
+        <p class="text-gray-600 mb-2">Coimbatore, India</p>
+        <p class="text-blue-600 font-bold">₹78 Lakh</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-white py-6 bg-blue-600">
+    <p>© 2025 DreamHomes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
